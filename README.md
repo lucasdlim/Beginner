@@ -7,9 +7,7 @@ Para baixar o JDK, rodar na linha de comando: `brew update` <br/>
 e depois: `brew tap caskroom/versions` <br/>
 e depois: `brew cask install java8` <br/>
 
-
 Para checar se o JDK esta instalado corretamente: `javac --version`
-
 
 Guias para iniciantes online: 
  * https://beginnersbook.com/2013/05/java-introduction/ 
@@ -20,10 +18,10 @@ Guias para iniciantes online:
  
  
 # Meu Primeiro Programa em Java
-Para criar um repositorio: `mkdir [NomeDoRepositorio]`
-Para mover para o repositorio: `cd [NomeDoRepositorio]`
-Para criar um novo arquivo: `touch [NomeDoArquivo.TipoDoArquivo]`
-Para editar o arquivo: `nano [NomeDoArquivo.TipoDoArquivo]`
+Para criar um repositorio: `mkdir [NomeDoRepositorio]` <br/>
+Para mover para o repositorio: `cd [NomeDoRepositorio]` <br/>
+Para criar um novo arquivo: `touch [NomeDoArquivo.TipoDoArquivo]` <br/>
+Para editar o arquivo: `nano [NomeDoArquivo.TipoDoArquivo]` <br/>
 
 Adicionar no arquivo: 
 ```
@@ -34,9 +32,9 @@ public class FirstJavaProgram {
 }//End of FirstJavaProgram Class
 ```
 
-Para Renomear o Arquivo: `mv [NomeDoArquivo.TipoDoArquivo] FirstJavaProgram.java`
-Para  __Compilar__ o arquivo: `javac FirstJavaProgram.java`
-Para __Rodar__ o arquivo: `java FirstJavaProgram`
+Para Renomear o Arquivo: `mv [NomeDoArquivo.TipoDoArquivo] FirstJavaProgram.java` <br/>
+Para  __Compilar__ o arquivo: `javac FirstJavaProgram.java` <br/>
+Para __Rodar__ o arquivo: `java FirstJavaProgram` <br/>
 
 __Fim__
 
