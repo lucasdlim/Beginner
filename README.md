@@ -3,11 +3,9 @@ Beginner guide to java
 
 Download HomeBrew pelo terminal de comando, adicionando `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-Para baixar o JDK, rodar na linha de comando: `brew update`
-
-e depois: `brew tap caskroom/versions`
-
-e depois: `brew cask install java8`
+Para baixar o JDK, rodar na linha de comando: `brew update` <br/>
+e depois: `brew tap caskroom/versions` <br/>
+e depois: `brew cask install java8` <br/>
 
 
 Para checar se o JDK esta instalado corretamente: `javac --version`
