@@ -4,10 +4,14 @@ Beginner guide to java
 Download HomeBrew pelo terminal de comando, adicionando `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 Para baixar o JDK, rodar na linha de comando: `brew update`
+
 e depois: `brew tap caskroom/versions`
+
 e depois: `brew cask install java8`
 
+
 Para checar se o JDK esta instalado corretamente: `javac --version`
+
 
 Guias para iniciantes online: 
  * https://beginnersbook.com/2013/05/java-introduction/ 
@@ -24,11 +28,13 @@ Para criar um novo arquivo: `touch [NomeDoArquivo.TipoDoArquivo]`
 Para editar o arquivo: `nano [NomeDoArquivo.TipoDoArquivo]`
 
 Adicionar no arquivo: 
-`public class FirstJavaProgram {
+```
+public class FirstJavaProgram {
   public static void main(String[] args){
     System.out.println("This is my first program in java");
   }//End of main
-}//End of FirstJavaProgram Class`
+}//End of FirstJavaProgram Class
+```
 
 Para Renomear o Arquivo: `mv [NomeDoArquivo.TipoDoArquivo] FirstJavaProgram.java`
 Para  __Compilar__ o arquivo: `javac FirstJavaProgram.java`
